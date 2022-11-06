@@ -1,4 +1,69 @@
-html, body {
-  height: 100%;
-  width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navegador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    height: fit-content;
+    width: 100vmax;
+    color: white;
+    
+}
+
+.navegador a{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1vmax;
+    height: 1vmax;
+    color: white;
+    transition: all 100ms ease-in-out;
+
+}
+.navegador a:hover{
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+
+
+#inicio{
+    padding: 4vmax;
+    background-color: blue;
+    height: 100vmax;
+    width: 100vmax;
+}
+#cadastro{
+    padding: 4vmax;
+    background-color: red;
+    height: 100vmax;
+    width: 100vmax;
+}
+#compra{
+    padding: 4vmax;
+    background-color: green;
+    height: 100vmax;
+    width: 100vmax;
+}
+#sobre{
+    padding: 4vmax;
+    background-color: yellow;
+    height: 100vmax;
+    width: 100vmax;
+}
+#criador{
+    padding: 4vmax;
+    background-color: purple;
+    height: 100vmax;
+    width: 100vmax;
 }
